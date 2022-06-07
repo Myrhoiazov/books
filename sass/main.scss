@@ -474,8 +474,6 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.get-book__item {
-}
 .get-book__title {
   position: relative;
   padding-bottom: 23px;
@@ -657,7 +655,6 @@ body {
   list-style: none;
 
   margin: -15px;
-
 }
 .knowledge__item {
   padding-top: 42px;
@@ -735,7 +732,7 @@ body {
   margin-left: 10px;
 }
 
-.button__wrapper{
+.button__wrapper {
   text-align: center;
 
   padding-top: 59px;
@@ -751,7 +748,7 @@ body {
 
   cursor: pointer;
 
-  &:hover{
+  &:hover {
     background-color: transparent;
 
     border: 1px solid $colors-yellow;
@@ -764,8 +761,11 @@ body {
   font-size: 18px;
   line-height: 1.5;
 
-  color: #969AA0;
+  color: #969aa0;
+
+  width: 330px;
 }
+
 .knowledge__link-aktiv {
   font-family: 'Inter';
   font-size: 18px;
@@ -775,7 +775,7 @@ body {
 
   color: $colors-bcg;
 
-  &:hover{
+  &:hover {
     color: $colors-yellow;
   }
 }
