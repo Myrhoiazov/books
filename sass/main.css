@@ -1230,12 +1230,11 @@ body {
 }
 
 .button__wrapper {
-  text-align: center;
+  text-align: left;
   padding-top: 59px;
 }
 
 .knowledge__button {
-  text-align: center;
   border: none;
   margin-bottom: 34px;
   color: #1b3764;
@@ -1249,12 +1248,12 @@ body {
   color: #1b3764;
 }
 
-.knowledge__link {
+.button__wrapper .knowledge__link {
   font-family: 'Inter';
   font-size: 18px;
   line-height: 1.5;
   color: #969aa0;
-  width: 330px;
+  width: 200px;
 }
 
 .knowledge__link-aktiv {
