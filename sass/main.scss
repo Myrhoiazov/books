@@ -1,8 +1,9 @@
 @import './base/normalize';
 @import './utils/variabels';
-@import './_components/header';
-@import './_components/logo';
-@import './_components/raiting';
+@import './components/header';
+@import './components/logo';
+@import './components/raiting';
+@import './components/footer';
 
 body {
   font-family: 'Cardo', 'Inter';
@@ -1201,5 +1202,4 @@ body {
   border-bottom: 30px solid $colors-yellow;
 
   scroll-behavior: smooth;
-
 }
